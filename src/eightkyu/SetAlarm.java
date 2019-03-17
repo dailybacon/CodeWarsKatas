@@ -3,9 +3,7 @@ package eightkyu;
 public class SetAlarm {
 
     public static boolean setAlarm(boolean employed, boolean vacation) {
-        boolean isEmployed = employed;
-        boolean isOnVacation = vacation;
-        if (isEmployed && !isOnVacation) {
+        if (employed && !vacation){
             return true;
         } else {
             return false;
